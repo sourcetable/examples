@@ -190,16 +190,33 @@ https://www.eddata.us/
 
 ## Quick-reference: all data sources
 
-| Scenario | Source | URL |
+| Category | Source | URL |
 |---|---|---|
-| Politics | FEC bulk data | https://www.fec.gov/data/browse-data/?tab=bulk-data |
-| Politics (backup) | OpenSecrets bulk data | https://www.opensecrets.org/bulk-data |
-| Crime | Chicago open data | https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 |
+| **Politics** | FEC bulk data | https://www.fec.gov/data/browse-data/?tab=bulk-data |
+| Politics | OpenSecrets bulk data | https://www.opensecrets.org/bulk-data |
+| Politics | US Election 2020 Tweets (Kaggle) | https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets |
+| Politics | US Presidential Donations (Kaggle) | https://www.kaggle.com/datasets/danerbland/electionfinance |
+| Politics | Political fact-checking (HuggingFace) | https://huggingface.co/datasets/liar |
+| Politics | Hate speech detection (HuggingFace) | https://huggingface.co/datasets/hate_speech_offensive |
+| Politics | Tweet sentiment analysis (HuggingFace) | https://huggingface.co/datasets/tweet_eval |
+| **Crime** | Chicago open data | https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 |
 | Crime | LA open data | https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8 |
-| Crime (join) | Census population estimates | https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html |
-| Environment | EPA AQI by county | https://aqs.epa.gov/aqsweb/airdata/download_files.html |
-| Environment (join) | County Health Rankings | https://www.countyhealthrankings.org/health-data/methodology-and-sources/data-documentation |
-| Environment (bonus) | EPA EJScreen | https://ejscreen.epa.gov/mapper/ |
-| Education | Urban Institute explorer | https://educationdata.urban.org/data-explorer/schools |
-| Education (alt) | NCES Common Core | https://nces.ed.gov/ccd/files.asp |
-| Education (alt) | Ed-Data.us | https://www.eddata.us/ |
+| Crime | Census population estimates | https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html |
+| Crime | US Police Shootings (Kaggle) | https://www.kaggle.com/datasets/ahsen1330/us-police-shootings |
+| Crime | Global Terrorism Database (Kaggle) | https://www.kaggle.com/datasets/START-UMD/gtd |
+| **Environment** | EPA AQI by county | https://aqs.epa.gov/aqsweb/airdata/download_files.html |
+| Environment | County Health Rankings | https://www.countyhealthrankings.org/health-data/methodology-and-sources/data-documentation |
+| Environment | EPA EJScreen | https://ejscreen.epa.gov/mapper/ |
+| Environment | Climate Change Temperature (Kaggle) | https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data |
+| Environment | Global Air Pollution (Kaggle) | https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset |
+| **Education** | Urban Institute explorer | https://educationdata.urban.org/data-explorer/schools |
+| Education | NCES Common Core | https://nces.ed.gov/ccd/files.asp |
+| Education | Ed-Data.us | https://www.eddata.us/ |
+| **Health** | COVID-19 Vaccination Progress (Kaggle) | https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress |
+| Health | US Healthcare Data (Kaggle) | https://www.kaggle.com/datasets/maheshdadhich/us-healthcare-data |
+| **Economic** | World Happiness Report (Kaggle) | https://www.kaggle.com/datasets/unsdsn/world-happiness |
+| Economic | Income Statistics by State (Kaggle) | https://www.kaggle.com/datasets/goldenoakresearch/us-household-income-stats-geo-locations |
+| **News/Media** | CNN/DailyMail articles (HuggingFace) | https://huggingface.co/datasets/cnn_dailymail |
+| News/Media | AG News - 120k articles (HuggingFace) | https://huggingface.co/datasets/ag_news |
+| News/Media | 20 Newsgroups (HuggingFace) | https://huggingface.co/datasets/newsgroup |
+| **Financial** | Financial news sentiment (HuggingFace) | https://huggingface.co/datasets/financial_phrasebank |
